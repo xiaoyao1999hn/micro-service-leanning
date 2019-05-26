@@ -1,0 +1,13 @@
+server:
+  session-timeout: 1800
+  port: 8080
+spring:
+  application:
+    name: micro-service-nacos
+  cloud:
+    nacos:
+      config:
+        namespace: 41941b09-334d-45c9-80c6-d4282c78d71f
+        server-addr: 10.60.34.11:8848
+        file-extension: yml
+        group: DEFAULT_GROUP
