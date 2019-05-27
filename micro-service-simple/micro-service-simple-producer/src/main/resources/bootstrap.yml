@@ -1,11 +1,11 @@
 server:
   session-timeout: 1800
-  port: 8080
+  port: 8082
 spring:
   application:
-    name: micro-service-nacos
+    name: micro-service-simple-producer
   cloud:
-    nacos:
+    nacos :
       config:
 #        namespace: b516f8ef-5da2-404a-aec4-520134716b9f
         server-addr: 10.18.2.181:8848

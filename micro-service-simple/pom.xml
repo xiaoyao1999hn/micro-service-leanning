@@ -5,8 +5,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.xiaoyao.microservice.leanning</groupId>
-    <artifactId>micro-service-nacos</artifactId>
+    <artifactId>micro-service-simple</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>micro-service-simple-producer</module>
+        <module>micro-service-simple-consumer</module>
+        <module>micro-service-simple-base</module>
+    </modules>
+
     <properties>
         <java.version>1.8</java.version>
         <spring.cloud.version>Finchley.RELEASE</spring.cloud.version>
@@ -72,5 +79,6 @@
             </plugin>
         </plugins>
     </build>
+
 
 </project>
